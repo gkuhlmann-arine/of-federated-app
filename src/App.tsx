@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <h1>Hello{user ? `, ${user.firstName} ${user.lastName}` : ''}!</h1>
-      <p>14:29</p>
+      <p>14:47</p>
     </>
   );
 }
