@@ -61,9 +61,9 @@ module.exports = {
         './App': './src/App',
       },
       shared: {
-        react: { singleton: true, requiredVersion: '^18.2.0' },
-        'react-dom': { singleton: true, requiredVersion: '^18.2.0' },
-        'react-redux': { singleton: true, requiredVersion: '7.2.4' },
+        react: { singleton: true, eager: false, requiredVersion: '^18.2.0' },
+        'react-dom': { singleton: true, eager: false, requiredVersion: '^18.2.0' },
+        'react-redux': { singleton: true, eager: false, requiredVersion: '^7.2.0' },
       },
     }),
     new HtmlWebpackPlugin({
