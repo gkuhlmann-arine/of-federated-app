@@ -28,7 +28,8 @@ module.exports = {
   mode: 'production',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: 'https://lsanches-arine.github.io/of-federated-app/',
+    publicPath: 'https://gkuhlmann-arine.github.io/of-federated-app/',
+    uniqueName: 'ofFederatedApp',
     clean: true,
   },
   resolve: {
